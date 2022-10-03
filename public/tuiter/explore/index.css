@@ -1,0 +1,54 @@
+#settings-icon {
+    color:blue;
+    padding-left: 12px;
+    font-size: 36px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.input-box {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    border-radius: 35px;
+    border: 0px;
+    height: 35px;
+    width: 300px;
+    padding-left: 16px;
+    margin-left: 16px;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin-left: 16px;
+}
+
+.wd-tabs li {
+    display: inline;
+    padding:16px;
+
+}
+
+.wd-tabs {
+    padding-left: 0px;
+    color: rgb(110, 118, 125)
+
+}
+
+.wd-link {
+    padding-left: 0px;
+    color: rgb(110, 118, 125);
+    font-size:  15px
+
+}
+
+.wd-selected {
+    color: rgb(29,161,242);
+    border-bottom: 3px rgb(29,161,242) solid;
+    padding-bottom: 20px;
+    display: inline;
+}
