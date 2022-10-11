@@ -1,14 +1,17 @@
-#settings-icon {
+/* /* #settings-icon {
     color:blue;
     padding-left: 12px;
     font-size: 36px;
-}
+} */
 
 a {
     text-decoration: none;
+    color:black;
 
 }
 
+
+/* 
 .input-box {
     background-color: rgb(61, 61, 61);
     color: white;
@@ -19,12 +22,6 @@ a {
     padding-left: 16px;
     margin-left: 16px;
 
-}
-
-body {
-    background-color: black;
-    color: white;
-    margin-left: 16px;
 }
 
 .wd-tabs li {
@@ -94,7 +91,7 @@ img{
 
 .wd-suggested {
     position: absolute;
-    /* width: 60%; */
+
     border-radius: 36px;
     float: left;
 
@@ -102,7 +99,7 @@ img{
 
 .wd-explore-box {
     position: absolute;
-    /* width: 40%; */
+
     border-radius: 36px;
     float: right;
 
@@ -117,4 +114,4 @@ img{
     border-radius: 16px;
     float: right;
 
-}
+} */ 
