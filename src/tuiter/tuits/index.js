@@ -4,13 +4,13 @@ import TuitItem
     from "./tuit-item";
 
 const TuitsList = () => {
-    const postsArray = useSelector(state => state.tuits)
+    const tuitsArray = useSelector(state => state.tuits)
     return (
         <ul className="list-group">
             {
-                postsArray.map(post =>
+                tuitsArray.map(tuit =>
                     <TuitItem
-                        key={post._id} post={post} />)
+                        key={tuit._id} tuit={tuit} />)
             }
         </ul>
     );

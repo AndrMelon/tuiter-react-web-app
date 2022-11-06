@@ -1,9 +1,11 @@
 import TuitsList from "../tuits";
+import WhatsHappening from "./whats-happening.js";
 import "./index.css";
 const HomeComponent = () => {
     return (
         <>
-            <h2>Home</h2>
+            <h4>Home</h4>
+            <WhatsHappening />
             <TuitsList />
         </>
     );
