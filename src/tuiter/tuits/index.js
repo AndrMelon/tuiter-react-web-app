@@ -1,19 +1,19 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import PostSummaryItem
-    from "./post-summary-item";
+import TuitItem
+    from "./tuit-item";
 
-const PostSummaryList = () => {
-    const postsArray = useSelector(state => state.posts)
+const TuitsList = () => {
+    const postsArray = useSelector(state => state.tuits)
     return (
         <ul className="list-group">
             {
                 postsArray.map(post =>
-                    <PostSummaryItem
+                    <TuitItem
                         key={post._id} post={post} />)
             }
         </ul>
     );
 };
-export default PostSummaryList;
+export default TuitsList;
 
